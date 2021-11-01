@@ -10,7 +10,6 @@ module BinSearch
         elsif arr[mid] > x
           return binarySearch(arr, l, (mid - 1), x)
         else
-          #return binarySearch
           return binarySearch(arr, (mid + 1), r, x)
         end
       else
