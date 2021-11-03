@@ -6,8 +6,3 @@ module Minimum
     end
   end
 end
-
-=begin
-  arr = [7, 2, 3, 4, 5, 6]
-  puts minSum(arr)
-=end
