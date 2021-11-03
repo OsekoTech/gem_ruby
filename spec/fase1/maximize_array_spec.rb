@@ -10,4 +10,13 @@ RSpec.describe "Maximize Array" do
     result = maximum.maximumSum(arr, n, k)
     expect(result).to eq(10)
   end
+
+  it "Maximize array sum after K negations is " do
+    arr = [9, 8, 8, 5]
+    k = 3
+    n = arr.length()
+    maximum = Maximum::Maximum_Sum.new
+    result = maximum.maximumSum(arr, n, k)
+    expect(result).to eq(30)
+  end
 end
