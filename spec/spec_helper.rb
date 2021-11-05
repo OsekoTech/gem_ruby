@@ -12,4 +12,8 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
+  config.formatter = :documentation
+  config.failure_color = :red
+  config.tty = true
+  config.color = true
 end
